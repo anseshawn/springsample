@@ -18,7 +18,7 @@ public class HomeController {
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
 	//@RequestMapping(value = "/", method = RequestMethod.GET) // :9090 + context명 뒤의 마지막 슬래시를 의미
-	@RequestMapping(value = {"/","/home","/index","/main"}, method = RequestMethod.GET) // 여러개 지정할 땐 중괄호 이용
+	@RequestMapping(value = {"/","/home","/index","/main","/h"}, method = RequestMethod.GET) // 여러개 지정할 땐 중괄호 이용
 	// 주소창에 http://localhost:9090/sample/ 가 들어오면 return의 home.jsp를 찾아감
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);

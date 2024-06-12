@@ -1,12 +1,20 @@
 package com.spring.sample.vo;
 
 public class S0611VO {
+	private String name;
 	private String mid;
 	private String pwd;
 	private int age;
 	private int gender;
 	private String strGender;
 	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
 	public String getMid() {
 		return mid;
 	}
@@ -40,8 +48,8 @@ public class S0611VO {
 	}
 	@Override
 	public String toString() {
-		return "S0611VO [mid=" + mid + ", pwd=" + pwd + ", age=" + age + ", gender=" + gender + ", strGender=" + strGender
-				+ "]";
+		return "S0611VO [name=" + name + ", mid=" + mid + ", pwd=" + pwd + ", age=" + age + ", gender=" + gender
+				+ ", strGender=" + strGender + "]";
 	}
 	
 }
