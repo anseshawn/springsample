@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Test test = new 패키지.클래스(); 처럼 선언할 때 test: id , 패키지명: class -->
+	<bean id="vo1" class="com.spring.sample.s0613.SungjukVO">
+		<property name="name" value="홍길동" />
+		<property name="kor" value="100" />
+		<property name="eng" value="75" />
+		<property name="mat" value="90" />
+	</bean>
+	
+	<bean id="vo2" class="com.spring.sample.s0613.SungjukVO">
+		<property name="name" value="김말숙"/>
+		<property name="kor" value="95"/>
+		<property name="eng" value="80"/>
+		<property name="mat" value="100"/>
+	</bean>
+	
+	<bean id="vo3" class="com.spring.sample.s0613.SungjukVO">
+		<property name="name" value="이기자"/>
+		<property name="kor" value="80"/>
+		<property name="eng" value="75"/>
+		<property name="mat" value="60"/>
+	</bean>
+
+</beans>

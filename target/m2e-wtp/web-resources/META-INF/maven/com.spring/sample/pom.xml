@@ -125,7 +125,24 @@
 		    <version>1.18.24</version>
 		    <scope>provided</scope>
 		</dependency>
-		    
+		
+		<!-- AOP를 사용하기 위한 라이브러리(2개) : Spring AOP / aspectjweaver -->
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-aop</artifactId>
+		    <version>${org.springframework-version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+		<dependency>
+		    <groupId>org.aspectj</groupId>
+		    <artifactId>aspectjweaver</artifactId>
+		    <version>${org.aspectj-version}</version>
+		    <scope>runtime</scope>
+		</dependency>
+		
+		
+		
 	</dependencies>
     <build>
         <plugins>
