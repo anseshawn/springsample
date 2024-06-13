@@ -2,6 +2,26 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
+	
+	<bean id="bmi1" class="com.spring.sample.s0613.BMIVO">
+		<property name="name" value="홍길동"/>
+		<property name="height" value="180"/>
+		<property name="weight" value="75"/>
+	</bean>
+	<bean id="bmi2" class="com.spring.sample.s0613.BMIVO">
+		<property name="name" value="김말숙"/>
+		<property name="height" value="175"/>
+		<property name="weight" value="80"/>
+	</bean>
+	<bean id="bmi3" class="com.spring.sample.s0613.BMIVO">
+		<property name="name" value="이기자"/>
+		<property name="height" value="165"/>
+		<property name="weight" value="62"/>
+	</bean>
+	<bean id="bmi4" class="com.spring.sample.s0613.BMIVO">
+		<property name="name" value="소나무"/>
+		<property name="height" value="170"/>
+		<property name="weight" value="50"/>
+	</bean>
 
 </beans>
